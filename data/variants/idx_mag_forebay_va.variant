@@ -1,0 +1,57 @@
+{
+  "variantId": "idx_mag_forebay_va",
+  "hullId": "idx_mag_forebay",
+  "displayName": "Foreward",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [
+    "missleracks",
+    "nav_relay",
+    "supercomputer"
+  ],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "idx_mag_tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "idx_mag_tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "idx_mag_ionpulser",
+        "WS0006": "idx_mag_ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "idx_mag_ioncannon",
+        "WS0008": "idx_mag_ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "idx_mag_ioncannon",
+        "WS0010": "idx_mag_ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

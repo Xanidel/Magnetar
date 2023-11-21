@@ -1,0 +1,40 @@
+{
+  "variantId": "idx_mag_starguns_va",
+  "hullId": "idx_mag_starguns",
+  "displayName": "Starboard",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [
+    "missleracks",
+    "turretgyros",
+    "supercomputer"
+  ],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "idx_mag_tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "idx_mag_ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

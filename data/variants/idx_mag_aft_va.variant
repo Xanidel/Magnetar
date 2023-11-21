@@ -1,0 +1,26 @@
+{
+  "variantId": "idx_mag_aft_va",
+  "hullId": "idx_mag_aft",
+  "displayName": "Aft",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [
+	"hardenedshieldemitter",
+    "solar_shielding",
+	"stabilizedshieldemitter"
+  ],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "idx_mag_ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

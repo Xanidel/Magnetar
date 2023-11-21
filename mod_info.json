@@ -1,0 +1,13 @@
+{
+  "id":"idx_magnetar",
+  "name":"The Magnetar",
+  "author":"IonDragonX",
+  "totalConversion":"false",
+  "utility":"false",
+  "version":"1.0.1",
+  "description":"The Magnetar from IonDragon stripped of Superweapons but otherwise unchanged.",
+  "gameVersion":"0.96",
+  "dependencies": [
+		
+	]
+}

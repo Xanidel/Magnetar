@@ -1,0 +1,33 @@
+{
+  "variantId": "idx_mag_portprow_va",
+  "hullId": "idx_mag_portprow",
+  "displayName": "Port",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [
+    "armoredweapons",
+    "autorepair",
+    "supercomputer"
+  ],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "idx_mag_ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "idx_mag_ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

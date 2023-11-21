@@ -1,0 +1,40 @@
+{
+  "variantId": "idx_mag_portmizzen_va",
+  "hullId": "idx_mag_portmizzen",
+  "displayName": "Port",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [
+    "missleracks",
+    "fluxbreakers",
+    "supercomputer"
+  ],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "idx_mag_tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "idx_mag_ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "idx_mag_ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

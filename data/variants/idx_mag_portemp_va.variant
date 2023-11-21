@@ -1,0 +1,18 @@
+{
+  "variantId": "idx_mag_portemp_va",
+  "hullId": "idx_mag_portemp",
+  "displayName": "Port",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [
+    "nav_relay",
+    "eccm",
+    "ecm"
+  ],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

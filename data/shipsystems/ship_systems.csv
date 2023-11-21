@@ -1,0 +1,4 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+#Phase Teleporter,phaseteleporter,,,,,,,,,,0.5,0,0.5,3,,,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Phase Teleporter,idx_mag_phaseteleporter,,,,,,,,3,0.1,0.25,,0.25,0,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+#Phase Skimmer,displacer,,,,,,,,3,0.1,0.25,,0.25,0,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png

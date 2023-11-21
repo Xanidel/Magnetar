@@ -1,0 +1,50 @@
+{
+  "hullName": "Shield Module",
+  "hullId": "idx_mag_aft",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/idx_magnetar/ships/aft.png",
+  "style": "HIGH_TECH",
+  "height": 109,
+  "width": 101,
+  "center": [50, 62],
+  "collisionRadius": 67,
+  "shieldCenter": [250, -0],
+  "shieldRadius": 111.5,
+  "viewOffset": 0,
+  "builtInMods": [ 
+    "pointdefenseai",
+    "turretgyros",
+    "fluxbreakers",
+    "autorepair",
+    "supercomputer",
+    "never_detaches",
+    "reduced_explosion",
+    "shield_always_on"
+  ],
+  "builtInWeapons": {
+    "WS0001": "idx_mag_ioncannon"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-31.5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -53.5, -18,
+    37.5, -49.5,
+    44.5, -31.5,
+    28, -16.5,
+    28, 16.5,
+    44.5, 31.5,
+    37.5, 49.5,
+    -53.5, 18,
+    -64, -0
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "variantId": "idx_mag_portbay_va",
+  "hullId": "idx_mag_portbay",
+  "displayName": "Port",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [
+    "solar_shielding",
+    "chassis_storage",
+    "nav_relay"
+  ],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "idx_mag_ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "idx_mag_ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "idx_mag_ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

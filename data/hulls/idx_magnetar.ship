@@ -1,0 +1,196 @@
+{
+  "hullName": "Bridge Module",
+  "hullId": "idx_magnetar",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/idx_magnetar/ships/bridge.png",
+  "style": "HIGH_TECH",
+  "height": 321,
+  "width": 116,
+  "center": [58, 161],
+  "collisionRadius": 165,
+  "shieldCenter": [60, -0],
+  "shieldRadius": 111.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "turretgyros",
+    "armoredweapons",
+    "nav_relay",
+    "eccm",
+    "ecm",
+    "fluxbreakers",
+    "solar_shielding",
+    "autorepair",
+    #"do_not_back_off",
+    "unstable_injector",
+    "auxiliarythrusters"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-190, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 165,
+      "locations": [-130.5, 151.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -165,
+      "locations": [-130.5, -151.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 105,
+      "locations": [-51.5, 290.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -105,
+      "locations": [-56, -286.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [62.5, 360]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [62.5, -360]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 60,
+      "locations": [97, 189]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -60,
+      "locations": [97, -190]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [240, 225]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [240, -225]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 75,
+      "locations": [249.5, 82.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -75,
+      "locations": [250, -83]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [394, -0]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -75,
+      "locations": [604, -34]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 75,
+      "locations": [604, 34.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-130, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    140, -19,
+    -20.5, -54,
+    -90, -39,
+    -134, -51,
+    -157, -18,
+    -157, 18,
+    -134, 51,
+    -90, 39,
+    -20.5, 54,
+    140, 19,
+    159, -0
+  ]
+}

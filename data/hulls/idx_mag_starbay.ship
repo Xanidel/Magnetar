@@ -1,0 +1,138 @@
+{
+  "hullName": "Hangar Module",
+  "hullId": "idx_mag_starbay",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/idx_magnetar/ships/starbay.png",
+  "style": "HIGH_TECH",
+  "height": 189,
+  "width": 191,
+  "center": [100, 97.5],
+  "collisionRadius": 109,
+  "shieldCenter": [0, 20],
+  "shieldRadius": 150,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "turretgyros",
+    "armoredweapons",
+    "fluxbreakers",
+    "autorepair",
+    "supercomputer",
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "builtInWings": [
+    "terminator_wing",
+    "terminator_wing",
+    "terminator_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "idx_mag_ioncannon",
+    "WS0002": "idx_mag_ioncannon",
+    "WS0003": "idx_mag_ioncannon"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -30,
+      "locations": [54, -20.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 105,
+      "locations": [-45, 54]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 105,
+      "locations": [24.5, 73]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -17.5, 27.5,
+        -20.5, 43
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -7.5, 29.5,
+        -12, 46
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        2.5, 31.5,
+        9, -29
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [47, -82],
+      "length": 160,
+      "width": 40,
+      "angle": -75,
+      "contrailSize": 40,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [64.5, -70],
+      "length": 160,
+      "width": 40,
+      "angle": -75,
+      "contrailSize": 40,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [79.5, -58],
+      "length": 160,
+      "width": 40,
+      "angle": -75,
+      "contrailSize": 40,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    65.5, 67,
+    70.5, 13,
+    93, -13.5,
+    82, -53.5,
+    20, -88.5,
+    -29, -18.5,
+    -94, -7.5,
+    -60, 24.5,
+    -59.5, 56.5,
+    -42.5, 82.5,
+    7, 95
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "variantId": "idx_mag_starprong_va",
+  "hullId": "idx_mag_starprong",
+  "displayName": "Starboard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [
+    "pointdefenseai",
+    "eccm",
+    "ecm"
+  ],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "idx_mag_ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "idx_mag_ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

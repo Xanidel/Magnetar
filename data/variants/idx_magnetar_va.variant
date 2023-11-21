@@ -1,0 +1,67 @@
+{
+  "variantId": "idx_magnetar_va",
+  "hullId": "idx_magnetar",
+  "displayName": "Invincible",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [
+    "supercomputer",
+    "shared_flux_sink",
+    "operations_center"
+  ],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "idx_mag_aft_va"
+    },
+    {
+      "WS0002": "idx_mag_portengines_va"
+    },
+    {
+      "WS0003": "idx_mag_starengines_va"
+    },
+    {
+      "WS0004": "idx_mag_portbay_va"
+    },
+    {
+      "WS0005": "idx_mag_starbay_va"
+    },
+    {
+      "WS0006": "idx_mag_portprong_va"
+    },
+    {
+      "WS0007": "idx_mag_starprong_va"
+    },
+    {
+      "WS0008": "idx_mag_portguns_va"
+    },
+    {
+      "WS0009": "idx_mag_starguns_va"
+    },
+    {
+      "WS0010": "idx_mag_portemp_va"
+    },
+    {
+      "WS0011": "idx_mag_staremp_va"
+    },
+    {
+      "WS0012": "idx_mag_portmizzen_va"
+    },
+    {
+      "WS0013": "idx_mag_starmizzen_va"
+    },
+    {
+      "WS0014": "idx_mag_forebay_va"
+    },
+    {
+      "WS0015": "idx_mag_starprow_va"
+    },
+    {
+      "WS0016": "idx_mag_portprow_va"
+    }
+  ],
+  "wings": []
+}

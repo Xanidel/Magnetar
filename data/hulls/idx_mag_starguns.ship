@@ -1,0 +1,76 @@
+{
+  "hullName": "Gunnery Module",
+  "hullId": "idx_mag_starguns",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/idx_magnetar/ships/starguns.png",
+  "style": "HIGH_TECH",
+  "height": 188,
+  "width": 256,
+  "center": [128.5, 94.5],
+  "collisionRadius": 147.5,
+  "shieldCenter": [-75, 20],
+  "shieldRadius": 183.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "armoredweapons",
+    "fluxbreakers",
+    "solar_shielding",
+    "autorepair",
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "WS0002": "idx_mag_tachyonlance",
+    "WS0003": "squall",
+    "WS0004": "idx_mag_ioncannon"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [36, 85.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [47.5, 19.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 60,
+      "locations": [29.5, -44]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 15,
+      "locations": [-22.5, 29.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -94, -97,
+    -22.5, -127,
+    46.5, -81,
+    92, 55,
+    51, 127.5,
+    -57, 97,
+    -53, -31.5
+  ]
+}
